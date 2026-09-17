@@ -10,7 +10,16 @@
 		{
 			"uuid": "8b5d49ab-2ce3-4adf-9db6-fe635c1218fd",
 			"title": "Todo",
-			"tasks": []
+			"tasks": [
+				"9f55ebea-83b2-4769-b597-040b28e559e9",
+				"ec020e79-745f-4eac-b1b2-d4abf4629fda",
+				"ed621052-1551-4cca-899a-7134aa6df680",
+				"f4b73243-baa2-4128-8cc3-68c6751c22df",
+				"e51d0b35-f6d6-49b2-8635-b8012b4bf1fa",
+				"3bd4297d-b2fa-4d72-8bc2-5eafa82b3368",
+				"a7916897-68b5-4a4f-b3a2-8944ba193152",
+				"54ebeb45-7f0a-4414-a209-67d79a91b925"
+			]
 		},
 		{
 			"uuid": "605d9c60-e31d-4162-9d2b-aa48df97ab47",
@@ -23,7 +32,64 @@
 			"tasks": []
 		}
 	],
-	"tasks": [],
+	"tasks": [
+		{
+			"uuid": "9f55ebea-83b2-4769-b597-040b28e559e9",
+			"title": "Multiplayer",
+			"description": "https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html\n",
+			"category": "1236fd0b-5450-4e9f-ae10-26a34e9f2123",
+			"steps": []
+		},
+		{
+			"uuid": "ec020e79-745f-4eac-b1b2-d4abf4629fda",
+			"title": "Fog of War",
+			"description": "",
+			"category": "1236fd0b-5450-4e9f-ae10-26a34e9f2123",
+			"steps": []
+		},
+		{
+			"uuid": "ed621052-1551-4cca-899a-7134aa6df680",
+			"title": "Players",
+			"description": "",
+			"category": "1236fd0b-5450-4e9f-ae10-26a34e9f2123",
+			"steps": []
+		},
+		{
+			"uuid": "f4b73243-baa2-4128-8cc3-68c6751c22df",
+			"title": "Tools",
+			"description": "",
+			"category": "1236fd0b-5450-4e9f-ae10-26a34e9f2123",
+			"steps": []
+		},
+		{
+			"uuid": "e51d0b35-f6d6-49b2-8635-b8012b4bf1fa",
+			"title": "Economy",
+			"description": "",
+			"category": "1236fd0b-5450-4e9f-ae10-26a34e9f2123",
+			"steps": []
+		},
+		{
+			"uuid": "3bd4297d-b2fa-4d72-8bc2-5eafa82b3368",
+			"title": "Map Edit",
+			"description": "",
+			"category": "1236fd0b-5450-4e9f-ae10-26a34e9f2123",
+			"steps": []
+		},
+		{
+			"uuid": "a7916897-68b5-4a4f-b3a2-8944ba193152",
+			"title": "Casino Machine",
+			"description": "",
+			"category": "1236fd0b-5450-4e9f-ae10-26a34e9f2123",
+			"steps": []
+		},
+		{
+			"uuid": "54ebeb45-7f0a-4414-a209-67d79a91b925",
+			"title": "UI",
+			"description": "",
+			"category": "1236fd0b-5450-4e9f-ae10-26a34e9f2123",
+			"steps": []
+		}
+	],
 	"layout": {
 		"columns": [
 			[
