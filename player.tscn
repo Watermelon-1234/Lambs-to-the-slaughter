@@ -6,11 +6,21 @@
 [node name="Player" type="CharacterBody3D" unique_id=1751370955]
 script = ExtResource("1_onrkg")
 
-[node name="Pivot" type="Node3D" parent="." unique_id=489680523]
-
-[node name="sheep" parent="Pivot" unique_id=155360547 instance=ExtResource("1_4flbx")]
-
 [node name="CollisionPolygon3D" type="CollisionPolygon3D" parent="." unique_id=1287826342]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7353182, -1.034776, 0)
 depth = 1.35
 polygon = PackedVector2Array(-1.0990157, 1.3103648, -0.45895016, 1.0837233, 0.8189268, 1.2117478, 1.8566887, 0.8616825, 1.958268, 0.14392775, 1.7840989, -0.28759396, 1.6666389, -0.5917777, 1.3828273, -1.4492514, 1.0688224, -1.4734055, 0.85387766, -0.5993009, -0.37865543, -0.61986583, -0.62197065, -1.4552901, -0.9118204, -1.4552901, -1.0205145, -0.48912227, -1.479444, -0.03623115, -1.8696855, 0.26953018, -2.395496, 0.69255745, -2.4067748, 0.8438877, -2.0553038, 1.4835737, -1.2560177, 1.4613285)
 debug_color = Color(0.9457949, 0.14186808, 0.4656765, 1)
+
+[node name="Pivot" type="Node3D" parent="." unique_id=489680523]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7353182, -1.034776, 0)
+
+[node name="sheep" parent="Pivot" unique_id=155360547 instance=ExtResource("1_4flbx")]
+
+[node name="tps_CameraPivot" type="Node3D" parent="." unique_id=1911878656]
+transform = Transform3D(0.99999994, 0, 0, 0, 1.0000001, 0, 0, 0, 1.0000001, 0.36355174, 0.67707574, -0.0053584576)
+visible = false
+
+[node name="Camera3D" type="Camera3D" parent="tps_CameraPivot" unique_id=472556816]
+transform = Transform3D(-4.371139e-08, -0.6427876, 0.76604444, 0, 0.76604444, 0.6427876, -1, 2.8097137e-08, -3.3484866e-08, 0, 0, 0)
+current = true

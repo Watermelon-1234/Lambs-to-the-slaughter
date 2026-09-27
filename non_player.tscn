@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://b8s84nbkqeka1"]
+
+[ext_resource type="PackedScene" uid="uid://bwmsu7ngo4arj" path="res://Assets/Animals/Elephant.blend" id="2_5j5lw"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_7b326"]
+radius = 2.979004
+height = 8.879028
+
+[node name="non_Player" type="CharacterBody3D" unique_id=753192570]
+
+[node name="Pivot" type="Node3D" parent="." unique_id=489680523]
+
+[node name="Elephant" parent="Pivot" unique_id=1495900070 instance=ExtResource("2_5j5lw")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2037933105]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -0.6643677, 0.12469751, 0)
+shape = SubResource("CapsuleShape3D_7b326")
+
+[node name="tps_CameraPivot" type="Node3D" parent="." unique_id=1911878656]
+visible = false
